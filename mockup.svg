@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1400" font-family="system-ui, -apple-system, sans-serif">
+
+  <!-- Browser chrome -->
+  <rect width="900" height="1400" rx="12" fill="#e5e7eb"/>
+  <rect x="0" y="0" width="900" height="44" rx="12" fill="#d1d5db"/>
+  <rect x="0" y="32" width="900" height="12" fill="#d1d5db"/>
+  <!-- traffic lights -->
+  <circle cx="24" cy="22" r="6" fill="#ef4444"/>
+  <circle cx="44" cy="22" r="6" fill="#f59e0b"/>
+  <circle cx="64" cy="22" r="6" fill="#22c55e"/>
+  <!-- url bar -->
+  <rect x="120" y="11" width="540" height="22" rx="11" fill="#f9fafb"/>
+  <text x="390" y="26" font-size="11" fill="#6b7280" text-anchor="middle">neelchoudhury.github.io</text>
+
+  <!-- Page background -->
+  <rect x="0" y="44" width="900" height="1356" fill="#ffffff"/>
+
+  <!-- ── NAV ── -->
+  <rect x="0" y="44" width="900" height="52" fill="rgba(255,255,255,0.95)"/>
+  <line x1="0" y1="96" x2="900" y2="96" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="72" y="76" font-size="13" font-weight="700" fill="#0062ff" letter-spacing="2">NC</text>
+  <text x="580" y="76" font-size="12" font-weight="500" fill="#6b7280">About</text>
+  <text x="650" y="76" font-size="12" font-weight="500" fill="#6b7280">Experience</text>
+  <text x="740" y="76" font-size="12" font-weight="500" fill="#6b7280">Education</text>
+  <text x="820" y="76" font-size="12" font-weight="500" fill="#6b7280">Contact</text>
+
+  <!-- ── HERO ── -->
+  <rect x="0" y="96" width="900" height="340" fill="#0a0f1e"/>
+
+  <!-- profile photo -->
+  <circle cx="450" cy="196" r="56" fill="#1e293b" stroke="rgba(255,255,255,0.15)" stroke-width="3"/>
+  <!-- stylised face silhouette -->
+  <circle cx="450" cy="182" r="22" fill="#334155"/>
+  <ellipse cx="450" cy="230" rx="32" ry="18" fill="#334155"/>
+
+  <!-- name -->
+  <text x="450" y="284" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5">Neeladree Choudhury</text>
+  <!-- title -->
+  <text x="450" y="308" font-size="13" fill="rgba(255,255,255,0.55)" text-anchor="middle">Senior Software Engineer · Uber</text>
+  <!-- location -->
+  <text x="450" y="328" font-size="11" fill="rgba(255,255,255,0.3)" text-anchor="middle">Bengaluru, Karnataka, India</text>
+
+  <!-- CTA buttons -->
+  <rect x="344" y="344" width="104" height="32" rx="6" fill="#0062ff"/>
+  <text x="396" y="364" font-size="11" font-weight="500" fill="#ffffff" text-anchor="middle">Get in touch</text>
+  <rect x="460" y="344" width="96" height="32" rx="6" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="508" y="364" font-size="11" font-weight="500" fill="rgba(255,255,255,0.8)" text-anchor="middle">Resume ↓</text>
+
+  <!-- ── ABOUT ── -->
+  <rect x="0" y="436" width="900" height="210" fill="#ffffff"/>
+  <!-- section label -->
+  <text x="72" y="476" font-size="10" font-weight="700" fill="#0062ff" letter-spacing="3">ABOUT</text>
+  <!-- body text lines -->
+  <rect x="72" y="492" width="540" height="9" rx="4" fill="#e5e7eb"/>
+  <rect x="72" y="508" width="500" height="9" rx="4" fill="#e5e7eb"/>
+  <rect x="72" y="524" width="520" height="9" rx="4" fill="#e5e7eb"/>
+  <rect x="72" y="548" width="510" height="9" rx="4" fill="#e5e7eb"/>
+  <rect x="72" y="564" width="480" height="9" rx="4" fill="#e5e7eb"/>
+  <rect x="72" y="580" width="530" height="9" rx="4" fill="#e5e7eb"/>
+  <rect x="72" y="604" width="500" height="9" rx="4" fill="#e5e7eb"/>
+  <rect x="72" y="620" width="460" height="9" rx="4" fill="#e5e7eb"/>
+
+  <!-- ── EXPERIENCE ── -->
+  <rect x="0" y="646" width="900" height="400" fill="#f9fafb"/>
+  <text x="72" y="686" font-size="10" font-weight="700" fill="#0062ff" letter-spacing="3">EXPERIENCE</text>
+
+  <!-- divider top -->
+  <line x1="72" y1="700" x2="828" y2="700" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- item 1 -->
+  <text x="72" y="726" font-size="10" fill="#9ca3af">Mar 2024 – Present</text>
+  <rect x="72" y="734" width="52" height="16" rx="4" fill="#e8f0ff"/>
+  <text x="98" y="745" font-size="8" font-weight="700" fill="#0062ff" text-anchor="middle" letter-spacing="1">CURRENT</text>
+  <text x="280" y="726" font-size="13" font-weight="700" fill="#111827">Senior Software Engineer</text>
+  <text x="280" y="744" font-size="11" fill="#6b7280">Uber · Marketplace Platforms · Bengaluru, India</text>
+  <line x1="72" y1="766" x2="828" y2="766" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- item 2 -->
+  <text x="72" y="792" font-size="10" fill="#9ca3af">Jun 2022 – Mar 2024</text>
+  <text x="280" y="792" font-size="13" font-weight="700" fill="#111827">Software Engineer II</text>
+  <text x="280" y="810" font-size="11" fill="#6b7280">Uber · Fulfillment Logistics · Bengaluru, India</text>
+  <text x="280" y="826" font-size="11" fill="#4b5563">Worked on the finalization pipeline for Uber trips.</text>
+  <line x1="72" y1="840" x2="828" y2="840" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- item 3 -->
+  <text x="72" y="866" font-size="10" fill="#9ca3af">Dec 2021 – Jun 2022</text>
+  <text x="280" y="866" font-size="13" font-weight="700" fill="#111827">Associate</text>
+  <text x="280" y="884" font-size="11" fill="#6b7280">Goldman Sachs · Bengaluru, India</text>
+  <text x="280" y="900" font-size="11" fill="#4b5563">Built an internal tool for company-wide expertise and knowledge.</text>
+  <line x1="72" y1="914" x2="828" y2="914" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- item 4 -->
+  <text x="72" y="940" font-size="10" fill="#9ca3af">May 2018 – Dec 2021</text>
+  <text x="280" y="940" font-size="13" font-weight="700" fill="#111827">Analyst</text>
+  <text x="280" y="958" font-size="11" fill="#6b7280">Goldman Sachs · R&amp;D Engineering · Bengaluru, India</text>
+  <text x="280" y="974" font-size="11" fill="#4b5563">Information retrieval and knowledge management infrastructure.</text>
+  <line x1="72" y1="1000" x2="828" y2="1000" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- ── EDUCATION ── -->
+  <rect x="0" y="1046" width="900" height="180" fill="#ffffff"/>
+  <text x="72" y="1086" font-size="10" font-weight="700" fill="#0062ff" letter-spacing="3">EDUCATION</text>
+  <line x1="72" y1="1100" x2="828" y2="1100" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="72" y="1126" font-size="10" fill="#9ca3af">2014 – 2018</text>
+  <text x="280" y="1126" font-size="13" font-weight="700" fill="#111827">B.Tech, Electrical and Electronics Engineering</text>
+  <text x="280" y="1144" font-size="11" fill="#6b7280">NIT Warangal</text>
+  <text x="280" y="1160" font-size="11" fill="#4b5563">ACM Student Chapter · ACM ICPC 2016 (Amritapuri &amp; Kolkata Regionals)</text>
+  <line x1="72" y1="1180" x2="828" y2="1180" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- ── CONTACT ── -->
+  <rect x="0" y="1226" width="900" height="180" fill="#f9fafb"/>
+  <text x="72" y="1266" font-size="10" font-weight="700" fill="#0062ff" letter-spacing="3">CONTACT</text>
+  <text x="72" y="1290" font-size="12" fill="#6b7280">Feel free to reach out.</text>
+  <!-- email row -->
+  <rect x="72" y="1306" width="16" height="12" rx="2" fill="#9ca3af"/>
+  <text x="98" y="1318" font-size="12" fill="#374151">neeladree.choudhury@gmail.com</text>
+  <!-- github row -->
+  <circle cx="80" cy="1340" r="8" fill="#9ca3af"/>
+  <text x="98" y="1346" font-size="12" fill="#374151">github.com/neelchoudhury</text>
+
+  <!-- ── FOOTER ── -->
+  <rect x="0" y="1360" width="900" height="40" fill="#0a0f1e"/>
+  <text x="450" y="1385" font-size="10" fill="rgba(255,255,255,0.3)" text-anchor="middle">Neeladree Choudhury — Bengaluru, India</text>
+
+</svg>
