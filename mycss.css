@@ -10,14 +10,11 @@ img{
 h2{
 	font-weight: 100;
 }
-.e, .s, .p, .c{
+.e, .x, .p, .c{
 	font-weight: 200;
 }
 h4{
 	font-weight: 300;
-}
-#lang li,#web li,#frameworks li{
-	opacity: 0;
 }
 
 .inf{
@@ -34,12 +31,10 @@ nav
 .fixed {
   position: fixed;
   bottom: 0;
-  top: 0; 
-  height: 10%; 
+  top: 0;
+  height: 10%;
   right: 15%;
   width: 70%;
-  /* An <a> element was coming over the fixed navbar, so I changed z-index from 1 o 2 */
-  /* And the problem is fixed now. */
   z-index: 2;
   background-color: white;
 }
@@ -51,7 +46,6 @@ nav
 	border-style: none none solid none;
 }
 
-
 /* Education Section */
 
 .course{
@@ -62,7 +56,7 @@ nav
 	font-size: .8em;
 }
 
-/* Project Section */
+/* Experience / Timeline Section */
 
 .timeline ul li {
   list-style-type: none;
@@ -94,7 +88,7 @@ nav
   color: white;
   font-size: 0.8em;
 }
- 
+
 .timeline ul li div::before {
   content: '';
   position: absolute;
@@ -107,7 +101,7 @@ nav
 .timeline ul li:nth-child(odd) div {
   left: 45px;
 }
- 
+
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
@@ -117,7 +111,7 @@ nav
 .timeline ul li:nth-child(even) div {
   left: -439px;
 }
- 
+
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
@@ -128,25 +122,25 @@ nav
   background: #fff;
   transition: background .5s ease-in-out;
 }
- 
+
 .timeline ul li.in-view::after {
   background: #00bfa5;
 }
- 
+
 .timeline ul li div {
   visibility: hidden;
   opacity: 0;
   transition: all .5s ease-in-out;
 }
- 
+
 .timeline ul li:nth-child(odd) div {
   transform: translate3d(200px,0,0);
 }
- 
+
 .timeline ul li:nth-child(even) div {
   transform: translate3d(-200px,0,0);
 }
- 
+
 .timeline ul li.in-view div {
   transform: none;
   visibility: visible;
@@ -173,26 +167,20 @@ nav
   .timeline ul li {
     margin-left: 20px;
   }
-   
+
   .timeline ul li div {
     width: calc(100vw - 91px);
   }
-   
+
   .timeline ul li:nth-child(even) div {
     left: 45px;
   }
-   
+
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
     border-color: transparent #00bfa5 transparent transparent;
   }
-}
-
-/* Certifications Section */
-
-.smCer{
-	font-size: 0.7em;
 }
 
 /* Resume Section */
@@ -208,4 +196,3 @@ nav
   font-weight: 200;
   font-size: 1.5em;
 }
-
