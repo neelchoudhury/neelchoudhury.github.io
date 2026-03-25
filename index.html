@@ -1,255 +1,168 @@
-<html>
-	<head>
-		<title>Neeladree Choudhury</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Neeladree Choudhury">
+  <meta name="description" content="Senior Software Engineer at Uber">
+  <title>Neeladree Choudhury</title>
 
-		<!-- Meta UTF8 charset -->
-    	<meta charset="utf-8">
-		<!-- Basic page information -->
-	    <meta content="Neeladree Choudhury" name="author">
-	    <meta content="Senior Software Engineer at Uber" name="description">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mycss.css">
+</head>
 
-      	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<body>
 
-		<!-- Compiled and minified CSS -->
-	  	<link rel="stylesheet" href="materialize/css/materialize.min.css">
+  <!-- Sticky Nav -->
+  <header class="site-header">
+    <nav class="nav-inner">
+      <span class="nav-name">NC</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-	  	<link rel="stylesheet" type = "text/css" href = "mycss.css">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <img src="pic1.jpg" alt="Neeladree Choudhury" class="hero-photo">
+      <h1 class="hero-name">Neeladree Choudhury</h1>
+      <p class="hero-title">Senior Software Engineer &middot; Uber</p>
+      <p class="hero-location">Bengaluru, Karnataka, India</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Get in touch</a>
+        <a href="Resume.pdf" target="_blank" class="btn-secondary">Resume &darr;</a>
+      </div>
+    </div>
+  </section>
 
-	  	<!-- Animate.css -->
-      	<link rel="stylesheet" href="animate.css">
+  <main>
 
-	  	<!--Let browser know website is optimized for mobile-->
-      	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="section-inner">
+        <h2 class="section-title">About</h2>
+        <div class="about-text">
+          <p>
+            I work on the <strong>Marketplace Platforms</strong> team at Uber, building systems that power
+            Uber's global driver and earner ecosystem. Previously on the Fulfillment Logistics team,
+            where I worked on trip finalization pipelines.
+          </p>
+          <p>
+            Before Uber, I spent 4 years at <strong>Goldman Sachs</strong> as part of the R&amp;D
+            Engineering team and later as an Associate, working on internal tools and knowledge management
+            infrastructure.
+          </p>
+          <p>
+            Outside of work I love <a href="http://thatiliketodraw.blogspot.in/" target="_blank">sketching portraits</a>,
+            reading books, and listening to music. I once participated in a coordinated drum ensemble in
+            <strong>Shillong, Meghalaya</strong> that set a <strong>Guinness World Record</strong> for the
+            largest drum ensemble in the world &mdash; though I'm not a drummer!
+          </p>
+        </div>
+      </div>
+    </section>
 
-      	<!-- For icons -->
-      	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Experience -->
+    <section id="experience" class="section section-alt">
+      <div class="section-inner">
+        <h2 class="section-title">Experience</h2>
+        <ol class="exp-list">
 
-	</head>
+          <li class="exp-item">
+            <div class="exp-meta">
+              <span class="exp-date">Mar 2024 &ndash; Present</span>
+              <span class="exp-badge">Current</span>
+            </div>
+            <div class="exp-body">
+              <h3 class="exp-role">Senior Software Engineer</h3>
+              <p class="exp-company">Uber &middot; Marketplace Platforms &middot; Bengaluru, India</p>
+            </div>
+          </li>
 
+          <li class="exp-item">
+            <div class="exp-meta">
+              <span class="exp-date">Jun 2022 &ndash; Mar 2024</span>
+            </div>
+            <div class="exp-body">
+              <h3 class="exp-role">Software Engineer II</h3>
+              <p class="exp-company">Uber &middot; Fulfillment Logistics &middot; Bengaluru, India</p>
+              <p class="exp-detail">Worked on the finalization pipeline for Uber trips.</p>
+            </div>
+          </li>
 
-	<body>
-		<div class = "container">
+          <li class="exp-item">
+            <div class="exp-meta">
+              <span class="exp-date">Dec 2021 &ndash; Jun 2022</span>
+            </div>
+            <div class="exp-body">
+              <h3 class="exp-role">Associate</h3>
+              <p class="exp-company">Goldman Sachs &middot; Bengaluru, India</p>
+              <p class="exp-detail">Built an internal tool serving as a source of company-wide expertise and knowledge.</p>
+            </div>
+          </li>
 
-			<!-- Header Section -->
+          <li class="exp-item">
+            <div class="exp-meta">
+              <span class="exp-date">May 2018 &ndash; Dec 2021</span>
+            </div>
+            <div class="exp-body">
+              <h3 class="exp-role">Analyst</h3>
+              <p class="exp-company">Goldman Sachs &middot; R&amp;D Engineering &middot; Bengaluru, India</p>
+              <p class="exp-detail">Worked on information retrieval and knowledge management infrastructure.</p>
+            </div>
+          </li>
 
-			<div class = "row">
-				<div class = "section">
-					<br><br>
-					<div class = "col s10 offset-s2 m8 l8 offset-m4 offset-l4">
-						<img src = "pic1.jpg" alt = "pic" height = "300" width = "300" class = "materialboxed circle responsive-img ">
-					</div>
-					<div class = "col s12">
-						<br><br>
-						<p class = "flow-text">
-							<h2 class = "animated zoomIn cyan-text text-darken-2 center-align ">
-								Neeladree Choudhury
-							</h2>
-						</p>
-					</div>
+        </ol>
+      </div>
+    </section>
 
-				</div>
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="section-inner">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-item">
+          <div class="edu-meta">
+            <span class="exp-date">2014 &ndash; 2018</span>
+          </div>
+          <div class="edu-body">
+            <h3 class="exp-role">B.Tech, Electrical and Electronics Engineering</h3>
+            <p class="exp-company">NIT Warangal</p>
+            <p class="exp-detail">ACM Student Chapter &middot; ACM ICPC 2016 (Amritapuri &amp; Kolkata Regionals)</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-			</div>
-			<br><br><br>
-			<div class = "row">
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="section-inner contact-inner">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-sub">Feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="mailto:neeladree.choudhury@gmail.com" class="contact-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            neeladree.choudhury@gmail.com
+          </a>
+          <a href="https://github.com/neelchoudhury" target="_blank" class="contact-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.31.468-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.3 1.23A11.5 11.5 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293 0 .322.216.694.825.576C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            github.com/neelchoudhury
+          </a>
+        </div>
+      </div>
+    </section>
 
-				<!-- Navigation Bar -->
+  </main>
 
-				<section class = "section1">
-				<nav>
-					    <div class="nav-wrapper animated fadeIn">
-					      <div class = "col s6 m3 l3 center-align ">
-								<h4 class = "e ">
-									<a href = "#intro" > About </a>
-								</h4>
-							</div>
-							<div class = "col s6 m3 l3 center-align">
-								<h4 class = "x ">
-									<a href = "#experience" > Experience </a>
-								</h4>
-							</div>
-							<div class = "col s6 m3 l3 center-align">
-								<h4 class = "p ">
-									<a href = "#education" > Education </a>
-								</h4>
-							</div>
-							<div class = "col s6 m3 l3 center-align">
-								<h4 class = "c">
-									<a href = "#contact"> Contact </a>
-								</h4>
-							</div>
-					    </div>
-				</nav>
-				</section>
-			</div>
-			<br>
+  <footer class="site-footer">
+    <p>Neeladree Choudhury &mdash; Bengaluru, India</p>
+  </footer>
 
-			<!-- Introduction Section -->
-
-			<div id = "intro">
-				<div class = "row">
-					<div class = "section">
-
-						<div class="flow-text center-align ">
-
-			            <span class=""><h2>Hi ! I am ...</h2></span>
-			            <br>
-
-			        </div>
-
-			        <div class = "col s12">
-						<div id = "intro">
-							<p class = "flow-text inf animated hide">
-								... Neeladree Choudhury, a <b>Senior Software Engineer at Uber</b>, based in <b>Bengaluru, Karnataka, India</b>.<br><br>
-								I work on the Marketplace Platforms team at Uber, building systems that power Uber's global driver and earner ecosystem. Previously on the Fulfillment Logistics team, where I worked on trip finalization pipelines.<br><br>
-								Before Uber, I spent 4 years at <b>Goldman Sachs</b> as part of the R&amp;D Engineering team and later as an Associate, working on internal tools and knowledge management infrastructure.<br><br>
-								I love <a href = "http://thatiliketodraw.blogspot.in/" target = "_blank">sketching portraits</a>, reading books, and listening to music.
-								<br><br>
-								Also, I once participated in a coordinated drum ensemble in <b>Shillong, Meghalaya</b> which ended up creating a <b>Guinness World Record</b> for the largest drum ensemble in the world!
-								<br>
-								P.S. - I'm not a drummer!
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-			<br><br><br><br><br>
-
-			<!-- Experience Section -->
-
-			<div id = "experience">
-				<br><br><br><br><br>
-				<div class = "row">
-					<div class = "section">
-						<div class = "flow-text">
-							<section class="timeline">
-								<ul>
-									<li>
-										<div>
-											<time>Mar 2024 &ndash; Present</time> <br>
-											<b>Senior Software Engineer &mdash; Uber</b>
-											<p>Marketplace Platforms. Bengaluru, Karnataka, India &middot; On-site.</p>
-										</div>
-									</li>
-									<li>
-										<div>
-											<time>Jun 2022 &ndash; Mar 2024</time> <br>
-											<b>Software Engineer II &mdash; Uber</b>
-											<p>Fulfillment Logistics. Worked on the finalization pipeline for Uber trips. Bengaluru, Karnataka, India &middot; On-site.</p>
-										</div>
-									</li>
-									<li>
-										<div>
-											<time>Dec 2021 &ndash; Jun 2022</time> <br>
-											<b>Associate &mdash; Goldman Sachs</b>
-											<p>Built an internal tool serving as a source of company-wide expertise and knowledge. Bengaluru, Karnataka, India.</p>
-										</div>
-									</li>
-									<li>
-										<div>
-											<time>May 2018 &ndash; Dec 2021</time> <br>
-											<b>Analyst &mdash; Goldman Sachs</b>
-											<p>R&amp;D Engineering. Worked on information retrieval and knowledge management infrastructure. Bengaluru, Karnataka, India.</p>
-										</div>
-									</li>
-								</ul>
-							</section>
-						</div>
-					</div>
-				</div>
-			</div>
-			<br><br><br><br><br>
-
-			<!-- Education Section -->
-
-			<div id = "education" class = "edu hide animated">
-				<br><br><br><br><br>
-				<div class = "row">
-					<div class = "section">
-						<div class = "flow-text">
-							<div class = "center-align">
-
-								<p class = "course col s12 m2 l2 red-text text-accent-3">
-									<i class="small material-icons left">stars</i>
-									B.Tech
-								</p>
-								<div class = "col s8 m7 l7 ">
-									<p class = "grey-text text-darken-3">
-										NIT Warangal &mdash; Electrical and Electronics Engineering
-									</p>
-									<p class = "sm">
-										ACM Student Chapter &middot; ACM ICPC 2016 (Amritapuri &amp; Kolkata Regionals)
-									</p>
-								</div>
-								<div class = "col s4 m3 l3 ">
-									<p class = "teal-text">
-										2014 &ndash; 2018
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<br><br><br><br><br>
-
-			<!-- Resume Section -->
-
-			<div id = "resume">
-				<div class = "row">
-					<br><br><br><br><br>
-					<div class = "flow-text">
-						<div class = "center-align resume animated hide">
-							<a href = "Resume.pdf" target = "_blank" class="waves-effect waves-light btn-large buttn pulse">
-								<i class="fa fa-download fa-3x" >&nbsp;&nbsp;&nbsp;<span class = "btn-fnt" >Resume</span></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<br><br><br><br><br><br>
-
-			<!-- Contact Section -->
-
-			<div id = "contact">
-				<div class = "row">
-					<br><br><br><br><br><br>
-					<div class="flow-text center-align ">
-
-			            <span class=""><h2>Contact</h2></span>
-			            <br>
-
-			        </div>
-
-			        <div class = "col s12 m4 l4 center-align">
-			        	<a href = "https://github.com/neelchoudhury" target = "_blank" class = "animated hide cont" >
-			        		<i class="fa fa-github fa-5x" ></i>
-			        	</a>
-          			</div>
-
-          			<div class = "col s12 m4 l4 center-align">
-			        	<a href = "mailto:neeladree.choudhury@gmail.com" class = "animated hide cont" >
-			        		<i class="large material-icons">email</i>
-			        	</a>
-          			</div>
-
-			    </div>
-			</div>
-
-		</div>
-
-		  		<!-- JQuery -->
-	  		<script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
-			<!-- Compiled and minified JavaScript -->
-	  		<script type = "text/javascript" src = "materialize/js/materialize.min.js"></script>
-
-			<!-- Font Awesome -->
-	  		<script type = "text/javascript" src = "https://use.fontawesome.com/db7ee6ed02.js"></script>
-
-	  		<!-- Custom JavaScript & JQuery Functions -->
-	  		<script type = "text/javascript" src = "page.js"></script>
-
-	</body>
+</body>
 </html>
